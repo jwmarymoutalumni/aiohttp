@@ -1,0 +1,40 @@
+/*
+Theme Name: Clothing Store
+Theme URI: https://example.com/clothing-store
+Author: AIOHTTP Example
+Author URI: https://example.com/
+Description: A simple eCommerce WordPress theme for clothing stores.
+Version: 1.0
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Tags: e-commerce, clothing, custom-background, custom-logo, custom-menu, featured-images
+Text Domain: clothing-store
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.product {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+}
+
+.product img {
+    max-width: 100%;
+}
